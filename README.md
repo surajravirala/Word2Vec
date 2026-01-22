@@ -1,1 +1,4 @@
 # Word2Vec
+
+Semantic Analysis with Word2VecThis project demonstrates the power of Word Embeddings using the gensim library. By representing words as high-dimensional vectors, we can perform mathematical operations to discover linguistic relationships.FeaturesVector Retrieval: Convert raw text into numerical spatial coordinates.Similarity Scoring: Quantify how related two concepts are (e.g., "Man" and "Woman").Analogy Solving: Perform "Linguistic Arithmetic" to solve equations like $King - Man + Woman = Queen$.Outlier Detection: Use the doesnt_match function to find the word that doesn't fit in a group.PrerequisitesYou will need a pre-trained Word2Vec model (like Google News vectors) or a locally trained model to run these commands.Bashpip install gensim
+UsageLoad your model using KeyedVectors.Run the similarity functions to explore the semantic space.Use the vector arithmetic section to test cultural or logical analogies.
